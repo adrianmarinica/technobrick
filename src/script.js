@@ -49,10 +49,10 @@
     }
 
     $.when(
-        $.getJSON('../data/manual.json', function (result) {
+        $.getJSON('data/manual.json', function (result) {
             manual = result;
         }),
-        $.getJSON('../data/autonomous.json', function (result) {
+        $.getJSON('data/autonomous.json', function (result) {
             autonomous = result;
         })
     ).then(function () {
