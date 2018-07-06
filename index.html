@@ -10,14 +10,32 @@
     <link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
-    <div class="comparison">
-        <div class="quadrant left">
-            <canvas id="bar-chart-manual"></canvas>
+    <div class="banner"></div>
+    <div class="data-container">
+        <div class="comparison">
+            <div class="quadrant left">
+                <canvas id="bar-chart-manual"></canvas>
+            </div>
+            <div class="quadrant right">
+                <canvas id="bar-chart-autonomous"></canvas>
+            </div>
+            <div class="clear"></div>
         </div>
-        <div class="quadrant right">
-            <canvas id="bar-chart-autonomous"></canvas>
+        <div class="comparison">
+            <div class="quadrant left">
+                <canvas id="scatter-chart-surface-exits"></canvas>
+            </div>
+            <div class="quadrant right">
+                <canvas id="scatter-chart-surface-time"></canvas>
+            </div>
+            <div class="clear"></div>
         </div>
-        <div class="clear"></div>
+        <div>
+            <canvas id="radar-chart-incidents"></canvas>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2018 TechnoBrick
     </div>
 </body>
 </html>
