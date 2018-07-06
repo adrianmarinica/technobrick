@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/adrianmarinica/technobrick#readme",
   "dependencies": {
-    "chart.js": "2.7.2"
+    "chart.js": "2.7.2",
+    "jquery": "^3.3.1"
   }
 }
