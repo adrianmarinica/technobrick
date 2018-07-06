@@ -106,3 +106,22 @@ canvas {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media only screen and (max-width: 667px) {
+    .left {
+        float: none;
+    }
+
+    .right {
+        float: none;
+    }
+
+    .comparison .quadrant {
+        width: 96%;
+        display: inline-block;
+    }
+
+    .data-container {
+        padding: 0;
+    }
+}
